@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.meleva">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/carona"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppHome">
+        <activity android:name="com.meleva.LoginActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.meleva.HomeActivity"
+            android:label="@string/title_activity_home"
+            android:theme="@style/AppHome" />
+        <activity
+            android:name="com.meleva.CriarViagemActivity"
+            android:label="@string/title_activity_home"
+            android:theme="@style/AppHome" />
+        <activity
+            android:name="com.meleva.ProcurarViagemActivity"
+            android:label="ME LEVA"
+            android:theme="@style/AppTab" />
+        <activity
+            android:name="com.meleva.PerfilActivity"
+            android:label="ME LEVA"
+            android:theme="@style/AppTab" />
+        <activity
+            android:name="com.meleva.DefActivity"
+            android:label="ME LEVA"
+            android:theme="@style/AppTab" />
+        <activity android:name="com.meleva.InfoViagemActivity"></activity>
+    </application>
+
+</manifest>

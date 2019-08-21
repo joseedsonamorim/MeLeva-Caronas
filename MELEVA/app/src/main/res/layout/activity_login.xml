@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    android:theme="@style/AppHome"
+    style="@style/AppHome"
+    tools:context="com.meleva.LoginActivity">
+
+    <EditText
+        android:id="@+id/txtEmail"
+        android:layout_width="247dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="@color/colorText"
+        android:drawableBottom="@color/colorText"
+        android:ems="10"
+        android:textStyle="bold"
+        android:hint="EMAIL"
+        android:inputType="textPersonName"
+        android:textColor="@color/colorText"
+        android:textColorHighlight="@color/colorText"
+        android:textColorHint="@color/colorText"
+        android:textColorLink="@color/colorText"
+        android:textCursorDrawable="@color/colorText"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.503"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2"
+        />
+
+    <Button
+        android:id="@+id/btnLogin"
+        android:layout_width="250dp"
+        android:layout_height="58dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/custom_button"
+        android:onClick="clickLogin"
+        android:text="LOGIN"
+        android:textColor="@android:color/background_light"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtPass"
+        app:layout_constraintVertical_bias="0.092"
+        android:textStyle="bold"
+        android:textSize="20dp"/>
+
+    <EditText
+        android:id="@+id/txtPass"
+        android:layout_width="248dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="@color/colorText"
+        android:drawableBottom="@color/colorText"
+        android:ems="10"
+        android:textStyle="bold"
+        android:hint="SENHA"
+        android:inputType="textPersonName"
+        android:password="true"
+        android:textColor="@color/colorText"
+        android:textColorHighlight="@color/colorText"
+        android:textColorHint="@color/colorText"
+        android:textColorLink="@color/colorText"
+        android:textCursorDrawable="@color/colorText"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtEmail" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="268dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="52dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/logo" />
+
+</android.support.constraint.ConstraintLayout>
