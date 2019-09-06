@@ -34,9 +34,9 @@ public class TabPerfilFragment extends Fragment {
     private static final String TAG = "TabPerfil";
 
 
-    @Nullable
+
     @Override
-    public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
+    public View onCreateView(LayoutInflater inflater,  ViewGroup container, Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.fragmente_perfil,container,false);
 
 
@@ -59,19 +59,19 @@ public class TabPerfilFragment extends Fragment {
 
         //Puxar os dados do utilizador para a frame Perfil (Perfil)
         userLogged = HomeActivity.userLogged;
-        nome.setText(userLogged.getNome());
-        curso.setText(userLogged.getCurso());
-        faculdade.setText(userLogged.getEstabelecimento());
-        email.setText(userLogged.getEmail());
-        telefone.setText(userLogged.getTelemovel());
-        marca.setText(userLogged.getCarro().getMarca_veiculo());
-        modelo.setText(userLogged.getCarro().getModelo());
-        cor.setText(userLogged.getCarro().getCor());
-        matricula.setText(userLogged.getCarro().getMatricula());
+        nome.setText("jj");
+        curso.setText("hhh");
+        faculdade.setText("kkk");
+        email.setText("kkk");
+        telefone.setText("okk");
+        marca.setText("okk");
+        modelo.setText("ok");
+        cor.setText("ok");
+        matricula.setText("okk");
 
 
 
-        image = userLogged.getUrlImg();
+        //image = userLogged.getUrlImg();
         Glide.with(this).load(image).into(imageFace);
 
         /*image = userLogged.getUrlImg();

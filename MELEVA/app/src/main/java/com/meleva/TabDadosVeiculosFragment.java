@@ -28,9 +28,9 @@ public class TabDadosVeiculosFragment extends Fragment {
 
     User userLogged;
 
-    @Nullable
+
     @Override
-    public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
+    public View onCreateView(LayoutInflater inflater,  ViewGroup container,  Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.fragment_dados_veiculo,container,false);
 
 
@@ -73,11 +73,11 @@ public class TabDadosVeiculosFragment extends Fragment {
         userLogged = HomeActivity.userLogged;
 
         if(!marca.equals("")){
-            marca.setText(userLogged.getCarro().getMarca_veiculo());
-            modelo.setText(userLogged.getCarro().getModelo());
-            cor.setText(userLogged.getCarro().getCor());
-            matricula.setText(userLogged.getCarro().getMatricula());
-            lugares.setText(userLogged.getCarro().getLugares());
+            marca.setText("chevrolet");
+            modelo.setText("S10");
+            cor.setText("Branco");
+            matricula.setText("1524614");
+            lugares.setText("3");
         }
 
         return view;

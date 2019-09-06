@@ -48,11 +48,11 @@ public class TabDadosPessoaisFragment extends Fragment {
         //Ve se o nome está vazio, se não estiver escreve todos os campos
         //basta fazer o if com o nome, uma vez que para o nome estar preenchido os outros campos também tem que estar
         if(!nome.equals("")){
-            nome.setText(userLogged.getNome());
-            faculdade.setText(userLogged.getEstabelecimento());
-            curso.setText(userLogged.getCurso());
-            nib.setText(userLogged.getNib());
-            telemovel.setText(userLogged.getTelemovel());
+            nome.setText("Joyce");
+            faculdade.setText("Nada");
+            curso.setText("ok");
+            nib.setText("jjjj");
+            telemovel.setText("kkkk");
         }
 
 
