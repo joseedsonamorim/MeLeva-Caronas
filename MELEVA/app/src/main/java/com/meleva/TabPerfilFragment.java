@@ -56,18 +56,17 @@ public class TabPerfilFragment extends Fragment {
 
 
 
-
         //Puxar os dados do utilizador para a frame Perfil (Perfil)
         userLogged = HomeActivity.userLogged;
-        nome.setText("jj");
-        curso.setText("hhh");
-        faculdade.setText("kkk");
-        email.setText("kkk");
-        telefone.setText("okk");
-        marca.setText("okk");
-        modelo.setText("ok");
-        cor.setText("ok");
-        matricula.setText("okk");
+        nome.setText("José Edson");
+        curso.setText("Ciências da Computação");
+        faculdade.setText("UFRPE");
+        email.setText("joseedsonamorim@nave.org.br");
+        telefone.setText("90000-0000");
+        marca.setText("Renault");
+        modelo.setText("Kwid");
+        cor.setText("Branco");
+        matricula.setText("123456");
 
 
 
@@ -94,16 +93,9 @@ public class TabPerfilFragment extends Fragment {
 
                     if(user.getEmail().equals(userD.getEmail())){
 
-                        Log.d("Carona", "user existente");
-
-
-
+                       Log.d("Carona", "user existente");
                     }
-
-
                 }
-
-
             }
 
             @Override

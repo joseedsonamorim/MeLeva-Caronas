@@ -33,7 +33,6 @@ public class TabTodasViagensFragment extends Fragment {
     private Button btnTeste;
     User userLogged;
 
-
     public static ArrayList<String> vKeys;
 
     public TabTodasViagensFragment(){
@@ -83,13 +82,7 @@ public class TabTodasViagensFragment extends Fragment {
                     Viagem viagem = dadosnapshot.getValue(Viagem.class);
                     viagens.add(viagem);
                     vKeys.add(dadosnapshot.getKey());
-
-
                     Log.d("Carona", Integer.toString(viagens.size())+" tamanho do array viagens");
-
-
-
-
 
                 }
 

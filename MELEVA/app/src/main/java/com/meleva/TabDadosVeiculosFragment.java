@@ -73,8 +73,8 @@ public class TabDadosVeiculosFragment extends Fragment {
         userLogged = HomeActivity.userLogged;
 
         if(!marca.equals("")){
-            marca.setText("chevrolet");
-            modelo.setText("S10");
+            marca.setText("Renault");
+            modelo.setText("Kwid");
             cor.setText("Branco");
             matricula.setText("1524614");
             lugares.setText("3");

@@ -3,6 +3,8 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/MELEVA.iml" filepath="$PROJECT_DIR$/.idea/MELEVA.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/MELEVA-app.iml" filepath="$PROJECT_DIR$/app/MELEVA-app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MeLeva-Caronas-MELEVA.iml" filepath="$PROJECT_DIR$/MeLeva-Caronas-MELEVA.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
   </component>

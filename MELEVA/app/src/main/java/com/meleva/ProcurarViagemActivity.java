@@ -106,8 +106,8 @@ public class ProcurarViagemActivity extends AppCompatActivity {
 
     private void setupViewPage(ViewPager viewPager){
         SectionsPageAdapter adapter = new SectionsPageAdapter(getSupportFragmentManager());
-        adapter.addFragment(new TabTodasViagensFragment(), "Todas as Boleias");
-        adapter.addFragment(new TabProcurarViagensFragment(), "Procurar Boleia");
+        adapter.addFragment(new TabTodasViagensFragment(), "Todas as Viagens");
+        adapter.addFragment(new TabProcurarViagensFragment(), "Procurar Viagem");
         viewPager.setAdapter(adapter);
 
 
